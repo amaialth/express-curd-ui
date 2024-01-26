@@ -1,0 +1,32 @@
+:host mat-form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 20% ;
+    margin-right:20%;
+}
+
+.input-form{
+    display: flex;
+    height: 25%;
+}
+
+.result-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: flex-start;
+}
+.result-card{
+    margin: 0.5rem;
+    flex-basis: calc(30% - 1em);
+}
+
+button{
+    margin: 1rem;
+}
